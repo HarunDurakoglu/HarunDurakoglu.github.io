@@ -8,6 +8,7 @@ This repository hosts public privacy policy and support pages for mobile applica
 - `memory-flip-kids/privacy/index.html`: Memory Flip Kids Privacy Policy
 - `memory-flip-kids/support/index.html`: Memory Flip Kids support information
 - `styles.css`: shared design system for navigation, app cards, document panels, buttons, badges, and footer
+- `favicon.svg`: original two-card favicon shared by every page
 
 Keep privacy and support copy accurate to the current app behavior. New apps can be added with another app card on the home page and their own directories.
 
