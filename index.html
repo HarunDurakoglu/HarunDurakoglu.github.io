@@ -3,33 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy and support pages for mobile apps by Harun Durakoglu.">
-  <title>App Privacy &amp; Support</title>
+  <meta name="description" content="Privacy policies and support information for apps by Harun Durakoglu.">
+  <title>Apps by Harun Durakoglu</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">Harun Durakoglu</p>
-      <h1>App Privacy &amp; Support</h1>
-      <p class="lede">Public privacy policies and support information for my mobile apps.</p>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Harun Durakoglu, home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span>Harun Durakoglu</span>
+      </a>
+      <span class="header-note">Apps &amp; support</span>
     </header>
 
-    <section class="card" aria-labelledby="memory-flip-title">
-      <div>
-        <p class="label">Mobile game</p>
-        <h2 id="memory-flip-title">Memory Flip Kids</h2>
-        <p>A simple memory matching game designed for children.</p>
-      </div>
-      <nav class="actions" aria-label="Memory Flip Kids pages">
-        <a class="button primary" href="/memory-flip-kids/privacy/">Privacy Policy</a>
-        <a class="button" href="/memory-flip-kids/support/">Support</a>
-      </nav>
-    </section>
-  </main>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <span class="badge"><span class="badge-dot" aria-hidden="true"></span> Independent apps</span>
+        <h1 id="page-title">Apps by<br>Harun Durakoglu<span class="heading-period">.</span></h1>
+        <p class="hero-copy">A home for app privacy policies and support information. Find the details you need, all in one place.</p>
+      </section>
 
-  <footer class="site-footer">
-    <p>&copy; 2026 Harun Durakoglu</p>
-  </footer>
+      <section class="app-section" aria-labelledby="apps-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Explore</p><h2 id="apps-title">Apps</h2></div>
+          <span class="section-count">01 app</span>
+        </div>
+        <div class="app-grid">
+          <article class="app-card" aria-labelledby="memory-flip-title">
+            <div class="app-card-top">
+              <div class="app-icon" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+              <span class="app-tag">Game</span>
+            </div>
+            <div class="app-card-body">
+              <h3 id="memory-flip-title">Memory Flip Kids</h3>
+              <p>Kids memory matching game</p>
+            </div>
+            <nav class="app-actions" aria-label="Memory Flip Kids pages">
+              <a class="button button-primary" href="/memory-flip-kids/privacy/">Privacy Policy <span aria-hidden="true">↗</span></a>
+              <a class="button button-secondary" href="/memory-flip-kids/support/">Support <span aria-hidden="true">↗</span></a>
+            </nav>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Harun Durakoglu</p>
+      <p>Independent apps, clear information.</p>
+    </footer>
+  </div>
 </body>
 </html>
