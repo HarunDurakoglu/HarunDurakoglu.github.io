@@ -7,6 +7,8 @@ This repository hosts public privacy policy and support pages for mobile applica
 - `index.html`: app directory and reusable app-card layout
 - `memory-flip-kids/privacy/index.html`: Memory Flip Kids Privacy Policy
 - `memory-flip-kids/support/index.html`: Memory Flip Kids support information
+- `mini-workshop-3d/privacy/index.html`: Mini Workshop 3D Privacy Policy
+- `mini-workshop-3d/support/index.html`: Mini Workshop 3D support information
 - `styles.css`: shared design system for navigation, app cards, document panels, buttons, badges, and footer
 - `favicon.svg`: original two-card favicon shared by every page
 
@@ -26,3 +28,8 @@ No custom domain is configured.
 
 - Privacy Policy: https://harundurakoglu.github.io/memory-flip-kids/privacy/
 - Support: https://harundurakoglu.github.io/memory-flip-kids/support/
+
+## Mini Workshop 3D
+
+- Privacy Policy: https://harundurakoglu.github.io/mini-workshop-3d/privacy/
+- Support: https://harundurakoglu.github.io/mini-workshop-3d/support/

@@ -136,6 +136,11 @@ h1, h2, h3 { line-height: 1.18; letter-spacing: -0.035em; }
 }
 .app-icon span { width: 18px; height: 20px; border-radius: 5px; background: #a8c6ad; box-shadow: inset 0 -3px 0 rgba(35, 75, 52, 0.1); }
 .app-icon span:nth-child(2), .app-icon span:nth-child(3) { background: #e5a987; }
+.app-icon-workshop { border-color: #cbddec; background: linear-gradient(145deg, #dceef8, #c8e0ed); }
+.app-icon-workshop span { border-radius: 50% 50% 5px 5px; background: #f0b456; }
+.app-icon-workshop span:nth-child(2) { background: #e76e64; }
+.app-icon-workshop span:nth-child(3) { background: #5aa887; }
+.app-icon-workshop span:nth-child(4) { background: #658bc0; }
 .app-icon-small { grid-template-columns: repeat(2, 13px); gap: 4px; width: 58px; height: 58px; border-radius: 16px; }
 .app-icon-small span { width: 13px; height: 15px; border-radius: 4px; }
 .app-tag { padding: 0.3rem 0.7rem; border-radius: 100px; background: var(--surface-soft); color: var(--accent); font-size: 0.76rem; font-weight: 700; }
