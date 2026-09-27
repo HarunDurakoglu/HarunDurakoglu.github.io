@@ -141,6 +141,9 @@ h1, h2, h3 { line-height: 1.18; letter-spacing: -0.035em; }
 .app-icon-workshop span:nth-child(2) { background: #e76e64; }
 .app-icon-workshop span:nth-child(3) { background: #5aa887; }
 .app-icon-workshop span:nth-child(4) { background: #658bc0; }
+.app-icon-roadmirror { border-color: #cadce8; background: linear-gradient(145deg, #e6f2f7, #cfe3ed); }
+.app-icon-roadmirror span { width: 8px; border-radius: 4px; background: #1f6380; }
+.app-icon-roadmirror span:nth-child(2), .app-icon-roadmirror span:nth-child(3) { background: #6ca8be; }
 .app-icon-small { grid-template-columns: repeat(2, 13px); gap: 4px; width: 58px; height: 58px; border-radius: 16px; }
 .app-icon-small span { width: 13px; height: 15px; border-radius: 4px; }
 .app-tag { padding: 0.3rem 0.7rem; border-radius: 100px; background: var(--surface-soft); color: var(--accent); font-size: 0.76rem; font-weight: 700; }
