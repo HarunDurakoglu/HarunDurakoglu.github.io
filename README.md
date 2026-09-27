@@ -10,6 +10,11 @@ This repository hosts public privacy policy and support pages for mobile applica
 - `mini-workshop-3d/privacy/index.html`: Mini Workshop 3D Privacy Policy
 - `mini-workshop-3d/support/index.html`: Mini Workshop 3D support information
 - `roadmirror/privacy/index.html`: RoadMirror Privacy Policy
+- `roadmirror/support/index.html`: RoadMirror support information
+- `kalori-takip/privacy/index.html`: Kalori Takip Privacy Policy
+- `kalori-takip/support/index.html`: Kalori Takip support information
+- `ehliyet-sinavi/privacy/index.html`: Ehliyet Sınavı 2026 Privacy Policy
+- `ehliyet-sinavi/support/index.html`: Ehliyet Sınavı 2026 support information
 - `styles.css`: shared design system for navigation, app cards, document panels, buttons, badges, and footer
 - `favicon.svg`: original two-card favicon shared by every page
 
@@ -38,4 +43,14 @@ No custom domain is configured.
 ## RoadMirror
 
 - Privacy Policy: https://harundurakoglu.github.io/roadmirror/privacy/
-- Support: https://roadmirror.web.app/support/
+- Support: https://harundurakoglu.github.io/roadmirror/support/
+
+## Kalori Takip
+
+- Privacy Policy: https://harundurakoglu.github.io/kalori-takip/privacy/
+- Support: https://harundurakoglu.github.io/kalori-takip/support/
+
+## Ehliyet Sınavı 2026
+
+- Privacy Policy: https://harundurakoglu.github.io/ehliyet-sinavi/privacy/
+- Support: https://harundurakoglu.github.io/ehliyet-sinavi/support/

@@ -6,13 +6,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-class RoadMirrorPrivacyPageTests(unittest.TestCase):
-    def test_home_page_lists_roadmirror_as_third_app(self):
+class SiteTests(unittest.TestCase):
+    def test_home_page_lists_all_five_apps(self):
         home = (ROOT / "index.html").read_text(encoding="utf-8")
 
-        self.assertIn('<span class="section-count">03 apps</span>', home)
+        self.assertIn('<span class="section-count">05 apps</span>', home)
+        self.assertIn('id="memory-flip-title">Memory Flip Kids</h3>', home)
+        self.assertIn('id="mini-workshop-title">Mini Workshop 3D</h3>', home)
         self.assertIn('id="roadmirror-title">RoadMirror</h3>', home)
+        self.assertIn('id="calory-track-title">Kalori Takip</h3>', home)
+        self.assertIn('id="ehliyet-sinavi-title">Ehliyet Sınavı 2026</h3>', home)
         self.assertIn('href="/roadmirror/privacy/"', home)
+        self.assertIn('href="/roadmirror/support/"', home)
+        self.assertIn('href="/kalori-takip/privacy/"', home)
+        self.assertIn('href="/kalori-takip/support/"', home)
+        self.assertIn('href="/ehliyet-sinavi/privacy/"', home)
+        self.assertIn('href="/ehliyet-sinavi/support/"', home)
 
     def test_privacy_page_matches_current_app_behavior(self):
         privacy = (ROOT / "roadmirror/privacy/index.html").read_text(encoding="utf-8")

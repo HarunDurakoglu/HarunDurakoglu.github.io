@@ -144,6 +144,12 @@ h1, h2, h3 { line-height: 1.18; letter-spacing: -0.035em; }
 .app-icon-roadmirror { border-color: #cadce8; background: linear-gradient(145deg, #e6f2f7, #cfe3ed); }
 .app-icon-roadmirror span { width: 8px; border-radius: 4px; background: #1f6380; }
 .app-icon-roadmirror span:nth-child(2), .app-icon-roadmirror span:nth-child(3) { background: #6ca8be; }
+.app-icon-calory { border-color: #fed7aa; background: linear-gradient(145deg, #fff7ed, #ffedd5); }
+.app-icon-calory span { width: 8px; border-radius: 4px; background: #ea580c; }
+.app-icon-calory span:nth-child(2), .app-icon-calory span:nth-child(3) { background: #10b981; }
+.app-icon-ehliyet { border-color: #bfdbfe; background: linear-gradient(145deg, #eff6ff, #dbeafe); }
+.app-icon-ehliyet span { width: 8px; border-radius: 4px; background: #2563eb; }
+.app-icon-ehliyet span:nth-child(2), .app-icon-ehliyet span:nth-child(3) { background: #38bdf8; }
 .app-icon-small { grid-template-columns: repeat(2, 13px); gap: 4px; width: 58px; height: 58px; border-radius: 16px; }
 .app-icon-small span { width: 13px; height: 15px; border-radius: 4px; }
 .app-tag { padding: 0.3rem 0.7rem; border-radius: 100px; background: var(--surface-soft); color: var(--accent); font-size: 0.76rem; font-weight: 700; }
