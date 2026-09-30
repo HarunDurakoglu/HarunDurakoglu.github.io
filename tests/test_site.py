@@ -45,7 +45,7 @@ class SiteTests(unittest.TestCase):
         )
 
     def test_every_root_relative_link_resolves_to_a_file(self):
-        pages = [ROOT / "index.html", *ROOT.glob("*/*/index.html")]
+        pages = list(ROOT.glob("**/index.html"))
 
         for page in pages:
             html = page.read_text(encoding="utf-8")
@@ -58,6 +58,15 @@ class SiteTests(unittest.TestCase):
                     destination = ROOT / target.removeprefix("/")
                 with self.subTest(page=page.relative_to(ROOT), target=target):
                     self.assertTrue(destination.is_file(), destination)
+
+    def test_blog_hub_and_posts_exist(self):
+        self.assertTrue((ROOT / "blog/index.html").is_file())
+        self.assertTrue((ROOT / "blog/2026-ehliyet-sinav-sorulari-ve-cikmis-sorular/index.html").is_file())
+        self.assertTrue((ROOT / "blog/android-auto-ekran-yansitma-nasil-yapilir/index.html").is_file())
+        self.assertTrue((ROOT / "blog/gunluk-kalori-ihtiyaci-ve-makro-hesaplama/index.html").is_file())
+        self.assertTrue((ROOT / "sitemap.xml").is_file())
+        self.assertTrue((ROOT / "robots.txt").is_file())
+
 
 
 if __name__ == "__main__":
